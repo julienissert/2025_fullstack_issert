@@ -34,3 +34,10 @@ Pour lancer le backend en local :
 - copier le .env du frontend à la racine
 - npm run lint 
 - npm run dev
+
+### infos and accounts
+Puisque les images ne sont pas stockées dans un bucket, celles des projets ne seront possiblement pas accessibles sauf si intégrées à l'identique en local.
+
+Un compte admin de test est : 
+test@test.com
+123456
