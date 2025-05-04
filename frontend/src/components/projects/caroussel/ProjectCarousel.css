@@ -1,0 +1,11 @@
+.carousel-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 10rem;
+    padding-top: 0px;
+}
+
+.grid {
+    padding-top: 0px;
+}

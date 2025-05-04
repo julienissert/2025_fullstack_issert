@@ -1,0 +1,105 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+  
+.button-primary {
+  max-height: 3rem;
+}
+  
+.popup-content h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+  
+.image-carousel {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.image-carousel img {
+  height: 200px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.description {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.admin-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+  
+.edit-btn, .delete-btn, .close-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.close-btn {
+  background-color: #555;
+  color: white;
+  width: 100%;
+}
+
+.delete-confirmation {
+  margin-top: 10px;
+}
+
+.delete-confirmation input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.confirm-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.confirm-delete {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.confirm-delete:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.cancel-delete {
+  background-color: #95a5a6;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+}
